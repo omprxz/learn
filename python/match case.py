@@ -1,0 +1,12 @@
+date=int(input('Today\'s date is :'))
+match date:
+    case 3:print('Today is the birthday of Om')
+    case 14:print('Today is the birthday of Sachin')
+    case 13:print('Today is the birthday of Ritika')
+    case 4:print('Today is the birthday of Khushi')
+    case 8:print('Today is the birthday of Sohan')
+    case 9:print('Today is the birthday of Rishu')
+    case 11:print('Today is the birthday of Tanya')
+    case 21:print('Today is the birthday of Anik')
+    case 27:print('Today is the birthday of Dipanshu')
+    case _:print('No one\'s birthdate today')
